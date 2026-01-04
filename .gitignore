@@ -1,0 +1,16 @@
+# Ignore everything by default
+*
+
+# Allow only these files
+!FastApi.py
+!FrontView.py
+!main.py
+!.gitignore
+
+# Ignore secrets
+.env
+*.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
